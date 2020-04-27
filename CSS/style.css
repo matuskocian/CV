@@ -1,0 +1,147 @@
+body {
+    background-color: #F5F5F5;
+    color: #505050;
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+h1 {
+    color: #45b29a;
+    font-size: 6.625rem;
+    padding-top: 125px;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 50px
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+}
+
+
+div.top {
+    background-color: #edffea;
+    position: relative;
+    height: 700px;
+}
+
+div.mid {
+    margin-top: 100px 0;
+}
+
+div.bot {
+    margin-top: 100px;
+    background-color: #6ed7a9;
+    padding: 40px 0 5px 0;
+}
+
+.Plane1 {
+    position: absolute;
+    right: 300px;
+    top: 300px;
+}
+
+.Plane2 {
+    position: absolute;
+    left: 290px;
+    bottom: 300px;
+}
+
+
+.Mountain {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+h2.student {
+    color: #45b29a;
+    margin: 80px;
+}
+
+img.profile {
+    border-radius: 50%;
+    width: 15%;
+    margin-top: 100px;
+}
+
+img.skill1 {
+    width: 19%;
+    float: left;
+    margin-right: 30px;
+}
+
+img.skill2 {
+    width: 19%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr {
+    border: dotted #888888 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+div.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+a {
+    color: #4e9979;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 65px auto 70px;
+}
+
+.btn {
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 50;
+    padding: 30px;
+    background-color: #6ED7A9;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background: rgba(13, 244, 193, 0.75);
+    border: solid #FFFFFF 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
